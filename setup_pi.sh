@@ -22,4 +22,6 @@ curl -sL https://raw.githubusercontent.com/MTijbout/usefull-files/master/bash_al
 curl -sL https://raw.githubusercontent.com/MTijbout/usefull-files/master/bash_profile > .bash_profile
 curl -sL https://raw.githubusercontent.com/MTijbout/usefull-files/master/bashrc-rpi > .bashrc
 
+. ~/.bash_profile
+
 echo "The setup_pi.sh script has run..." >> action.log
