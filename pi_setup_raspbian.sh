@@ -18,9 +18,9 @@
 
 ## Download the latest version of the scripts
 
-wget https://raw.githubusercontent.com/MTijbout/usefull-files/master/bash_aliases_rpi > .bash_aliases
-wget https://raw.githubusercontent.com/MTijbout/usefull-files/master/bash_profile > .bash_profile
-wget https://raw.githubusercontent.com/MTijbout/usefull-files/master/bashrc-rpi > .bashrc
+wget -O .bash_aliases https://raw.githubusercontent.com/MTijbout/usefull-files/master/bash_aliases_rpi
+wget -O .bash_profile https://raw.githubusercontent.com/MTijbout/usefull-files/master/bash_profile
+wget -O .bashrc https://raw.githubusercontent.com/MTijbout/usefull-files/master/bashrc-rpi
 
 . ~/.bash_profile
 
