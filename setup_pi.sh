@@ -5,12 +5,13 @@
 ##
 
 ##
-## Version 1.2
+## Version 1.3
 ##
 
 #
 # Changelog
 #
+# 1.3 - Added date and time string to the log.
 # 1.2 - Added the modified bashrc-rpi implementation.
 # 1.1 - Fixed curl error and made it silent.
 # 1.0 - Optimized for Raspberry Pi usage.
@@ -24,4 +25,6 @@ curl -sO https://raw.githubusercontent.com/MTijbout/usefull-files/master/bashrc-
 
 . ~/.bash_profile
 
-echo "The setup_pi.sh script has run..." >> action.log
+## Create a log entry
+current_time=$(date "+%Y%m%d-%H:%M:%S")
+echo "$current_time : The setup_pi.sh script has run..." >> action.log
